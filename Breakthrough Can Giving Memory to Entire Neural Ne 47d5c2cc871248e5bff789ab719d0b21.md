@@ -1,8 +1,7 @@
 # Breakthrough: Can Giving Memory to Entire Neural Nets be Revolutionary?
 
 3rd March, 2021
-
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/Untitled.png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/Untitled.png)
+![.](Resources/Aim_basic_idea_intro_image.png)
 
 # What is it?
 
@@ -22,11 +21,11 @@ The short answer : **YES**
 
 I decided to train a standard ResNet50 as my base on the Stanford Dogs dataset and then added some memory to the exact same architecture, and trained it exactly in the same way as ResNet50. 
 
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/rn_control_model_history.png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/rn_control_model_history.png)
+![.](Resources/rn_control_model_history.png)
 
 This is how **Standard ResNet50** performed, the highest the model reached was **15.14%** accuracy on test data. The training was stopped on the 40th epoch since the validation accuracy didn't increase in 7 epochs.
 
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/memory_resnet_1024_model_history.png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/memory_resnet_1024_model_history.png)
+![.](https://github.com/Joy-Lunkad/AiM/blob/e64b631d95dabe138419455bc786532c8944930f/Resources/memory_resnet_1024_model_history.png)
 
 And this is how the same **AiM** **ResNet50** performed (AiM comes from Memory for Artificial intelligence). I only let it run till the 50th epoch. On its fiftieth epoch, it scored **20.06%** accuracy on the test data and it still had potential to go further ahead.  
 
