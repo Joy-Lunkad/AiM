@@ -57,7 +57,7 @@ This memory has height, width and channels. By reshaping it and then padding it 
 
 # Simplified Final Design
 
-![.](Resources/Simplified final idea.png)
+![.](https://github.com/Joy-Lunkad/AiM/blob/2cfc095c894580181a3414fdf93a5792e5341edc/Resources/Simplified%20final%20idea.png)
 
 There was one major change in the final design I decided to implement :
 
