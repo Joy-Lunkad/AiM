@@ -47,7 +47,7 @@ The way I implemented this was I decided to have a layer of 'memory' and pass th
 
 # Initial Design
 
-![.](Resources/initial idea (2).png)
+![.](https://github.com/Joy-Lunkad/AiM/blob/aa89de1b25960748b12e4dc7a05c6601581a8a32/Resources/initial%20idea%20(2).png)
 
 **This is where I started. The way the Conv2D layer acts as "Memory" for the entire Neural Net is a pretty simple idea.** 
 
