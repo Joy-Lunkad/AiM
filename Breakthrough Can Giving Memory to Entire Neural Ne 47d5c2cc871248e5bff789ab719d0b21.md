@@ -47,7 +47,7 @@ The way I implemented this was I decided to have a layer of 'memory' and pass th
 
 # Initial Design
 
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/initial_idea_(2).png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/initial_idea_(2).png)
+![.](Resources/initial idea (2).png)
 
 **This is where I started. The way the Conv2D layer acts as "Memory" for the entire Neural Net is a pretty simple idea.** 
 
@@ -57,7 +57,7 @@ This memory has height, width and channels. By reshaping it and then padding it 
 
 # Simplified Final Design
 
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/Simplified_final_idea.png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/Simplified_final_idea.png)
+![.](Resources/Simplified final idea.png)
 
 There was one major change in the final design I decided to implement :
 
@@ -77,11 +77,11 @@ Going back to the example in which the AI is a student and this "memory" is its 
 
 When we study, we don't wait for a lecture to get over to write notes about that lecture. We might update the notes once the lecture ends or maybe when we are going through the notes sometime later. Similarly, I wanted the AI to be able to write anything it wants in the notebook whenever it felt like it. **With the memory update block, It can write stuff in said notebook while its processing a batch. Backpropagation, on the other hand, might weed out wrong notes and add in notes that the AI missed at first.** 
 
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/memory_resnet_1024_model_history%201.png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/memory_resnet_1024_model_history%201.png)
+![](https://github.com/Joy-Lunkad/AiM/blob/e64b631d95dabe138419455bc786532c8944930f/Resources/memory_resnet_1024_model_history.png)
 
 AiM-ResNet Performance
 
-![Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/rn_control_model_history%201.png](Breakthrough%20Can%20Giving%20Memory%20to%20Entire%20Neural%20Ne%2047d5c2cc871248e5bff789ab719d0b21/rn_control_model_history%201.png)
+![](Resources/rn_control_model_history.png)
 
 Standard ResNet Performance
 
